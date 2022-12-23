@@ -1,0 +1,2 @@
+Number of Tickets Sold = 88250
+Sale Amount = $6493750.00

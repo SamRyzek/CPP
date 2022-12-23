@@ -1,0 +1,20 @@
+12:28:14 **** Build of configuration Debug for project Chapter2 Program1 ****
+make all 
+Building file: ../Ch2P1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Ch2P1.d" -MT"Ch2P1.o" -o "Ch2P1.o" "../Ch2P1.cpp"
+Finished building: ../Ch2P1.cpp
+ 
+Building target: Chapter2 Program1
+Invoking: MacOS X C++ Linker
+g++  -o "Chapter2 Program1"  ./Ch2P1.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Chapter2 Program1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+12:28:15 Build Failed. 2 errors, 0 warnings. (took 289ms)
+

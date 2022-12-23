@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Chapter2Program2/C2P2&apos; to &apos;C2P2.cpp&apos;" description="Rename resource &apos;C2P2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="C2P2" name="C2P2.cpp" stamp="1580951563542" updateReferences="true"/>
+</session>

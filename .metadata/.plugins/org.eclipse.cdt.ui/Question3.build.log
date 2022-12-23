@@ -1,0 +1,25 @@
+17:40:01 **** Incremental Build of configuration Debug for project Question3 ****
+make all 
+Building target: Question3
+Invoking: MacOS X C++ Linker
+g++  -o "Question3"  ./Problem3.o   
+Undefined symbols for architecture x86_64:
+  "clockType::incrementMinutes()", referenced from:
+      _main in Problem3.o
+  "clockType::setTime(int, int, int)", referenced from:
+      _main in Problem3.o
+  "clockType::clockType(int, int, int)", referenced from:
+      _main in Problem3.o
+  "clockType::clockType()", referenced from:
+      _main in Problem3.o
+  "clockType::equalTime(clockType const&) const", referenced from:
+      _main in Problem3.o
+  "clockType::printTime() const", referenced from:
+      _main in Problem3.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Question3] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+17:40:01 Build Failed. 2 errors, 0 warnings. (took 180ms)
+
