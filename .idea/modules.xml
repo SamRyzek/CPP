@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/C++.iml" filepath="$PROJECT_DIR$/.idea/C++.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/CPP.iml" filepath="$PROJECT_DIR$/.idea/CPP.iml" />
+>>>>>>> c9756d1 (Getting things set up)
     </modules>
   </component>
 </project>
